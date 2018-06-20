@@ -16,7 +16,7 @@ namespace Reto_Calificaciones
             guardarlas en un arreglo.
             Calcular el promedio de las calificaciones y mostrarlas como resultado.
             */
-            Console.WriteLine("Ingrese la cantidad de calificaciones a ingresar");
+            Console.WriteLine("SAM: Ingrese la cantidad de calificaciones a ingresar");
             int cantidadCalificaciones = Int32.Parse( Console.ReadLine());
 
             int[] Calificaciones = new int[cantidadCalificaciones];
